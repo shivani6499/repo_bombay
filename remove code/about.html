@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en" data-wf-page="631cbc4792aded711f2a2f9a">
+<head>
+  <meta charset="utf-8">
+  <title>Bombay Berlin Film Productions</title>
+  <meta content="" name="description">
+  <meta content="" property="og:title">
+  <meta content="" property="og:description">
+  <meta content="" property="twitter:title">
+  <meta content="" property="twitter:description">
+  <meta property="og:type" content="website">
+  <meta content="summary_large_image" name="twitter:card">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="" name="generator">
+  <link href="https://ariantechsolutions.com/bbfp/assets/assets-global.website-files.com/630efbe8ac35922a8eff4563/css/filmax.webflow.f259d264d.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/" rel="preconnect">
+  <link href="https://fonts.gstatic.com/" rel="preconnect" crossorigin="anonymous">
+  <script src="/assets/ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">
+      WebFont.load({
+          google: {
+              families: ["Playfair Display:regular,500,600,italic,500italic,600italic"]
+          }
+      });
+  </script>
+  <script type="text/javascript">
+      !function(o, c) {
+          var n = c.documentElement, t = " w-mod-";
+          n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch")
+      }(window, document);
+  </script>
+  <link href="https://ariantechsolutions.com/bbfp/assets/assets-global.website-files.com/630efbe8ac35922a8eff4563/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="https://ariantechsolutions.com/bbfp/assets/assets-global.website-files.com/630efbe8ac35922a8eff4563/New Project.png" rel="apple-touch-icon">
+  <style>
+      .nav-link {
+          color: white;
+          text-decoration: none;
+          font-weight: bold;
+          padding: 10px 15px;
+          display: inline-block;
+          transition: background-color 0.3s ease, color 0.3s ease;
+      }
+      .nav-link:hover,
+      .nav-link:focus {
+          background-color: black;
+          border-radius: 5px;
+          color: white;
+          text-decoration: none;
+      }
+      .dropdown {
+          position: relative;
+          display: inline-block;
+      }
+      .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: rgba(0, 0, 0, 0.8);
+          min-width: 160px;
+          box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+          z-index: 1;
+          border-radius: 5px;
+      }
+      .dropdown-content a {
+          color: whitesmoke;
+          padding: 5px 13.2px;
+          text-decoration: none;
+          display: block;
+      }
+      .dropdown-content a:hover {
+          background-color: black;
+      }
+      .dropdown:hover .dropdown-content {
+          display: block;
+      }
+      body {
+          background-color: #121212;
+          color: #FFFFFF;
+          font-family: Arial, sans-serif;
+          margin: 0;
+      }
+      /* .section-footer {
+          background-color: black;
+          margin-bottom: 1;
+          justify-content: center;
+          padding: 10px;
+          position: relative;
+          width: 100%;
+          bottom: 0;
+          text-align: center;
+      }
+      .footer {
+          color: #FFFFFF;
+          display: inline-block;
+      }
+      .footer-links {
+          margin-bottom: px;
+      }
+      .footer-links .link-footer {
+          color: #FFFFFF;
+          margin: 0 10px;
+          text-decoration: none;
+      }
+      .footer-links .link-footer:hover {
+          text-decoration: underline;
+      }
+      .footer-credits {
+          margin-top: 5px;
+          text-align: center;
+      }
+      .footer-credits p {
+          margin: 5px 0;
+      } */
+        /* General footer styles */
+        .section-footer {
+            background-color: #222;
+            color: #fff;
+            padding: 20px 0;
+        }
+        .footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .footer-links, .footer-credits {
+            display: flex;
+            font-size: 15px;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .footer-links a, .footer-credits p {
+            margin: 0 10px; /* Increased margin for better spacing */
+            color: #fff;
+            text-decoration: none;
+        }
+        .footer-links a:hover {
+            color: #ffa500;
+        }
+
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+  .footer-links, .footer-credits {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .footer-text p {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+/* Remove gap between specific paragraphs */
+.footer-text p.line-space + p {
+  margin-top: 0; /* Remove margin-top for paragraphs immediately after the one with class 'line-space' */
+}
+
+.footer-text p + p {
+  margin-top: 0; /* Remove margin-top between consecutive paragraphs */
+}
+
+/* Optional: Adjust spacing specifically for phone mode */
+@media screen and (max-width: 768px) {
+  .footer-text p.line-space + p {
+    margin-top: 0; /* Ensure no gap on mobile devices */
+  }
+
+  .footer-text p + p {
+    margin-top: 0; /* Ensure no gap on mobile devices */
+  }
+}
+}
+      .nav-menu, .blog-link {
+          display: flex;
+      }
+      @media screen and (max-width: 768px) {
+          .dropdown, .blog-link, .nav-menu .nav-link {
+              display: block;
+              width: 100%;
+              text-align: left;
+              margin: 10px 0;
+          }
+          .dropdown {
+              position: static;
+          }
+          .dropdown-content {
+              display: none;
+              position: static;
+              background-color: rgba(0, 0, 0, 0.8);
+              width: 100%;
+              box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+              z-index: 1;
+              border-radius: 5px;
+          }
+          .dropdown:hover .dropdown-content {
+              display: block;
+          }
+      }
+      .blog-link {
+          opacity: 1;
+          text-decoration: none;
+          font-weight: bold;
+          padding: 10px 15px;
+          display: inline-block;
+          color: var(--light);
+          font-size: 16px;
+          transition: background-color 0.3s ease, color 0.3s ease;
+      }
+      .blog-link:hover {
+          background-color: black;
+          border-radius: 5px;
+          color: white;
+          text-decoration: none;
+      }
+      .blog-link {
+          font-size: 20px;
+      }
+      .nav-link {
+          font-size: 16px;
+      }
+      .nav {
+  position: relative;
+}
+
+.logo-container {
+  position: relative;
+  display: inline-block;
+  background-color: rgba(138, 138, 138, 0.5); /* Semi-transparent dark background */
+  /* padding: 10px;  */
+  border-radius: 5px; /* Optional: rounded corners */
+}
+
+.logo {
+  display: block;
+}
+  </style>
+</head>
+<body>
+    <div data-animation="over-right" data-collapse="small" data-duration="600" data-easing="ease-in-out-quint"
+    data-easing2="ease-in-out-quint" role="banner" class="navbar w-nav">
+    <div class="block-navbar">
+      <div class="nav">
+        <a href="index.html" class="brand w-nav-brand">
+          <div class="logo-container">
+            <img
+              src="assets/BBFP_LOGO_Large-removebg.png"
+              loading="eager"
+              alt=""
+              class="logo"
+            />
+          </div>
+        </a>
+      </div>
+        <div class="menu-button w-nav-button">
+          <div class="block-icon-menu"><img src="https://assets-global.website-files.com/630efbe8ac35922a8eff4563/630f409c7738ca9388e65c2f_menu.svg" loading="eager" alt="" class="icon-menu"></div>
+        </div>
+        <nav role="navigation" class="nav-menu w-nav-menu">
+          <a href="index.html" class="blog-link">HOME</a>
+          <div class="dropdown">
+            <a href="javascript:void(0)" class="blog-link">WORK</a>
+            <div class="dropdown-content">
+              <a href="tvcs.html">TVCs</a>
+              <a href="feature-films.html">Feature Films</a>
+              <a href="music-videos.html">Music Videos</a>
+              <a href="documentaries.html">Documentaries</a>
+              <a href="short-films.html">Short Films</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <a href="javascript:void(0)" class="blog-link">ABOUT</a>
+            <div class="dropdown-content">
+              <a href="bombaybarlin.html">Bombay Berlin</a>
+              <a href="our-team.html">Our Team</a>
+              <a href="why-us.html">Why Us?</a>
+              <a href="careers.html">Careers</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <a href="javascript:void(0)" class="blog-link">SERVICES</a>
+            <div class="dropdown-content">
+              <a href="line-production.html">Corporate</a>
+              <a href="production-services.html">Production Services</a>
+              <a href="feature.html">Feature</a>
+              <a href="documentary.html">Documentary</a>
+            </div>
+          </div>
+          <a href="Press.html" class="blog-link">BLOG</a>
+          <a href="contact.html" class="blog-link">CONTACT</a>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <div class="section-top">
+    <div class="overflow">
+     
+    </div>
+  </div>
+    <div class="section-top">
+        <div class="overflow">
+            <h1 data-w-id="a109cfd8-074d-f27d-6f20-c92288b6c7b2"
+                style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                class="heading-top">About</h1>
+        </div>
+    </div>
+    <div class="section"><img class="image"
+            src="https://ariantechsolutions.com/bbfp/assets/assets-global.website-files.com/630efbe8ac35922a8eff4563/631cbcf21b6e4afb0ae9de70_About_1.jpg"
+            alt="" style="opacity:0" sizes="(max-width: 767px) 95vw, 97vw"
+            data-w-id="02592dce-e1bf-43e7-db8c-7bee5d7c446a" loading="lazy"
+            srcset="https://assets-global.website-files.com/630efbe8ac35922a8eff4563/631cbcf21b6e4afb0ae9de70_About_1-p-500.jpg 500w, https://assets-global.website-files.com/630efbe8ac35922a8eff4563/631cbcf21b6e4afb0ae9de70_About_1-p-800.jpg 800w, https://assets-global.website-files.com/630efbe8ac35922a8eff4563/631cbcf21b6e4afb0ae9de70_About_1-p-1080.jpg 1080w, https://assets-global.website-files.com/630efbe8ac35922a8eff4563/631cbcf21b6e4afb0ae9de70_About_1-p-1600.jpg 1600w, https://assets-global.website-files.com/630efbe8ac35922a8eff4563/631cbcf21b6e4afb0ae9de70_About_1.jpg 1856w" />
+        <div data-w-id="695d0306-889e-590c-a9d0-66f237803a93" style="opacity:0" class="w-layout-grid grid-subsection">
+            <h3 id="w-node-_30d365f0-be85-02db-fac5-02fcd81e9c1f-1f2a2f9a" class="heading-subsection">Intro</h3>
+            <div id="w-node-e2ab6646-a870-8933-61da-8d8413cf4751-1f2a2f9a" class="subsection margin--35px">
+                <p>Condimentum enim ut nunc, sed magna scelerisque quam nec. Ullamcorper ullamcorper sed erat enim.
+                    Pellentesque sit nibh faucibus nunc amet hendrerit rhoncus, phasellus eros. Tincidunt blandit sed
+                    sagittis, lectus massa ipsum cras vestibulum. Ac aliquet et, venenatis massa in. Tincidunt sed.</p>
+                <h2>Risus scelerisque et orci dis mauris risus sit.</h2>
+                <p>Fermentum interdum felis eu eget adipiscing viverra etiam. Leo arcu, quam arcu. Facilisis auctor
+                    aenean cras odio dictum sed faucibus. Ac eget vel risus eget.<br /><br />At consectetur ullamcorper
+                    in integer quam viverra. Pharetra venenatis integer in dignissim aenean vivamus non id. Ultrices
+                    pharetra tellus id sed aliquam faucibus. Tincidunt laoreet amet sodales etiam. Convallis tincidunt
+                    id nam auctor. Sit velit, molestie nunc malesuada nulla. Pellentesque sit nibh faucibus.</p>
+            </div>
+        </div>
+        <div data-w-id="515e0691-5a13-fe31-d3d7-357b0ad94d1b" style="opacity:0" class="w-layout-grid grid-subsection">
+            <h3 id="w-node-_515e0691-5a13-fe31-d3d7-357b0ad94d1c-1f2a2f9a" class="heading-subsection">Clients</h3>
+            <div id="w-node-_515e0691-5a13-fe31-d3d7-357b0ad94d1e-1f2a2f9a" class="subsection">
+                <h3 class="clients-name">Leica</h3>
+                <h3 class="clients-name">SAMSUNG</h3>
+                <h3 class="clients-name">Webflow</h3>
+                <h3 class="clients-name">Swiss Arabian</h3>
+                <h3 class="clients-name">Magnolia</h3>
+                <h3 class="clients-name">SALONI</h3>
+                <h3 class="clients-name">Crisp</h3>
+                <h3 class="clients-name">BOLS</h3>
+            </div>
+        </div>
+        <div data-w-id="5e319da0-5ad6-02c4-cc69-938bb3290b81" style="opacity:0"
+            class="w-layout-grid grid-subsection border-none">
+            <h3 id="w-node-_5e319da0-5ad6-02c4-cc69-938bb3290b82-1f2a2f9a" class="heading-subsection">Awards</h3>
+            <div id="w-node-_5e319da0-5ad6-02c4-cc69-938bb3290b84-1f2a2f9a" class="subsection">
+                <div class="awards-years">
+                    <div class="text-year">2022</div>
+                    <h3 class="award-name">National Film Awards</h3>
+                    <h3 class="award-name">London Film Critics Circle</h3>
+                    <h3 class="award-name">Gotham Awards</h3>
+                </div>
+                <div class="awards-years margin-0">
+                    <div class="text-year">2021</div>
+                    <h3 class="award-name">Cannes Film Festival</h3>
+                    <h3 class="award-name">Louis Delluc Prize</h3>
+                </div>
+            </div>
+        </div><img class="image"
+            src="https://ariantechsolutions.com/bbfp/assets/assets-global.website-files.com/630efbe8ac35922a8eff4563/631cbcf2341fb51a58822841_About_2.jpg"
+            alt="" style="opacity:0" sizes="(max-width: 767px) 95vw, 97vw"
+            data-w-id="a3ead819-52c4-9996-e448-81b4e9dc9287" loading="lazy"
+            srcset="https://assets-global.website-files.com/630efbe8ac35922a8eff4563/631cbcf2341fb51a58822841_About_2-p-500.jpg 500w, https://assets-global.website-files.com/630efbe8ac35922a8eff4563/631cbcf2341fb51a58822841_About_2-p-800.jpg 800w, https://assets-global.website-files.com/630efbe8ac35922a8eff4563/631cbcf2341fb51a58822841_About_2-p-1080.jpg 1080w, https://assets-global.website-files.com/630efbe8ac35922a8eff4563/631cbcf2341fb51a58822841_About_2-p-1600.jpg 1600w, https://assets-global.website-files.com/630efbe8ac35922a8eff4563/631cbcf2341fb51a58822841_About_2.jpg 1856w" />
+    </div>
+    <div class="section-call-to-action">
+        <div class="call-to-action">
+            <div class="overflow">
+                <h2 data-w-id="18c05bec-2516-7024-4ba3-cb851e5575fa" class="heading-call-to-action">Got a project in
+                    mind?</h2>
+            </div><a data-w-id="18c05bec-2516-7024-4ba3-cb851e5575fc" href="contact.html"
+                class="link-call-to-action w-inline-block">
+                <h2 data-w-id="18c05bec-2516-7024-4ba3-cb851e5575fd" class="subheading-call-to-action">~ Let’s talk.
+                </h2>
+            </a>
+        </div>
+    </div>
+   
+    <script src="https://ariantechsolutions.com/bbfp/assets/d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c89052.js?site=630efbe8ac35922a8eff4563"
+        type="text/javascript">
+    </script>
+    <script src="https://ariantechsolutions.com/bbfp/assets/assets-global.website-files.com/630efbe8ac35922a8eff4563/js/webflow.c4c4beb19.js"
+        type="text/javascript"></script>
+</body>
+<div class="section-footer">
+  <div class="footer">
+      <div class="footer-links">
+        <a href="about.html"class="link-footer">About Us</a>
+          <a href="javascript:void(0)" class="link-footer">Privacy Policy</a>
+          <!-- <a href="java:void(0)" target="_blank" class="link-footer">Privacy Policy</a> -->
+          <a href="javascript:void(0)" class="link-footer">Terms of Service</a>
+      <div class="footer-credits">
+        <p>&nbsp;</p> <!-- Line of space -->
+        <p>&copy; 2024 Bombay Berlin. All rights reserved.</p>
+        <p>Developed by Ariantech Solutions Pvt. Ltd.</p>
+    </div>
+  </div>
+</div>
+<script>
+  // JavaScript for modal transition effects
+  function openModal(name) {
+      const modal = document.getElementById(name + 'Modal');
+      modal.style.display = "block";
+      setTimeout(() => modal.style.opacity = "1", 50); // Fade in effect
+  }
+
+  function closeModal(name) {
+      const modal = document.getElementById(name + 'Modal');
+      modal.style.opacity = "0";
+      setTimeout(() => modal.style.display = "none", 300); // Fade out effect
+  }
+
+  function applyDropdownBehavior() {
+      const dropdownButtons = document.querySelectorAll('.blog-link'); // Select all dropdown buttons
+
+      dropdownButtons.forEach(button => {
+          // Remove existing event listeners to prevent duplicates
+          button.removeEventListener('click', handleDropdownClick);
+
+          // Add event listener only if in phone mode
+          if (window.innerWidth <= 768) {
+              button.addEventListener('click', handleDropdownClick);
+          }
+      });
+  }
+
+  function handleDropdownClick(event) {
+      const button = event.currentTarget;
+      const dropdown = button.nextElementSibling; // Get the dropdown content next to the button
+
+      // Toggle dropdown visibility
+      if (dropdown.style.display === 'block') {
+          dropdown.style.display = 'none';
+      } else {
+          // Close all other dropdowns before opening the clicked one
+          closeAllDropdowns();
+          dropdown.style.display = 'block';
+      }
+  }
+
+  // Function to close all dropdowns
+  function closeAllDropdowns() {
+      const allDropdowns = document.querySelectorAll('.dropdown-content');
+      allDropdowns.forEach(dropdown => {
+          dropdown.style.display = 'none';
+      });
+  }
+
+  document.addEventListener('DOMContentLoaded', () => {
+      applyDropdownBehavior();
+
+      // Apply dropdown behavior on resize as well
+      window.addEventListener('resize', applyDropdownBehavior);
+  });
+
+  function applyFontSize() {
+      const links = document.querySelectorAll('.nav-link, .blog-link');
+      if (window.innerWidth <= 768) {
+          links.forEach(link => {
+              link.style.fontSize = '20px'; // Font size for phones
+          });
+      } else {
+          links.forEach(link => {
+              link.style.fontSize = '16px'; // Font size for laptops
+          });
+      }
+  }
+
+  // Apply font size on load
+  applyFontSize();
+
+  // Apply font size on resize
+  window.addEventListener('resize', applyFontSize);
+</script>
+
+</html>
